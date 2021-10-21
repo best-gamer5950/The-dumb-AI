@@ -1,4 +1,5 @@
 import random
+import sleep
 from turtle import *
 import time
 import datetime
