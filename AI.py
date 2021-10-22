@@ -1,5 +1,4 @@
 import random
-import sleep
 from turtle import *
 import time
 import datetime
@@ -31,6 +30,9 @@ command = input(f"Do you want to 1.make me say something 2.tell me the date 3.se
 while True:
 #commands
     if command == "say something":
+        break
+    elif command == "hello there" or command == "HELLO THERE":
+        print("GENERAL KENOBI")
         break
     elif command == "best gamer" or command == "bestgamer" or command == "bestgamer 5950" or command == "best gamer 5950" or command == "bestgamer5950" or command == "best gamer5950" or command == "projects" or command == "project":
         break
